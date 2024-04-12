@@ -1,0 +1,47 @@
+
+
+
+Format arguments with deffinitions:
+
+1.) The veriations of getting a random number:
+    a.) RANDNUM[ LEN-4 ] : returns a random number 4 digits in length.
+    b.) RANDNUM[] : returns a random number of 0 through 9.
+    c.) RANDNUM[ PREC-4-2 ] : returns a random number with the precision of (4.2).
+    
+2.) The veriation of getting a random letter:
+    a.) RANDLET[ A-M ] : returns any upper case letter from A to M.
+    b.) RANDLET[ a-m ] : returns any lower case letter from a to m.
+    c.) RANDLET[ A-M LEN-4 ] : returns random upper case letters from A to M four characters in length.
+    d.) RANDLET[ a-m LEN-4 ] : returns random lower case letters from a to m four characters in length.
+    c.) RANDLET[ VOL ] : returns a random voul.
+    d.) RANDLET[ CON ] : returns a random constinent.
+    
+3.) In suring a value is unique:
+    a.) UNIQUE
+    
+4.) The variations of returning a random name:
+    a.) RANDNAM[ MALE MALE LAST ] : returns a random male full name in the format 'first middle last'.
+    b.) RANDNAM[ MALE MI-OPT LAST ]
+    c.) RANDNAM[ FEMALE FEMALE LAST] : returns a random female full name in the format 'first middle last'.
+    d.) RANDNAM[ FEMALE MI-OPT LAST ]
+    e.) RANDNAM[ LAST MALE MALE ] : returns a random male full name in the format 'last, first middle'.
+    f.) 
+    d.) RANDNAM[ LAST FEMALE FEMALE ] : returns a random female full name in the format 'last, first middle'.
+    
+    e.) RANDNAM[ MALE LAST ] : returns a random male first and last name in the format of 'first last'.
+    f.) RANDNAM[ FEMALE LAST] : returns a random female first and last name in the format of 'first last'.
+    g.) RANDNAM[ LAST MALE ] : returns a random male last and first name in the format of 'last, first'.
+    h.) RANDNAM[ LAST FEMALE ] : returns a random female last and first name in the format of 'last, first'.
+    i.) RANDNAM[ MALE MI LAST ] : returns a random male full name in the format 'first middle-initial last'.
+    
+    j.) RANDNAM[ FEMALE FI LAST] : returns a random female full name in the format 'first middle-initial last'.
+    
+    k.) RANDNAM[ LAST MALE MI ] : returns a random male full name in the format 'last, first middle-initial'.
+    
+    l.) RANDNAM[ LAST FEMALE FI ] : returns a random female full name in the format 'last, first middle-initial'.
+    
+    m.) RANDNAM[ MALE ] : returns a random male first name in the format of 'first'.
+    n.) RANDNAM[ FEMALE ] : returns a random female first name in the format of 'first'.
+    o.) RANDNAM[ LAST ] returns a random last name in the format of 'last'.
+    p.) 
+    q.) 
