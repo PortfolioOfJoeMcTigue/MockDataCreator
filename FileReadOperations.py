@@ -67,7 +67,7 @@ class FileReadOperations():
   
     def get_configs_home_path(self, config):
         print("     inside: get_configs_home_path")
-        property_path = "C:/Projects/Python/Mock-Data-Creator/app-configs/application.properties"
+        property_path = "C://Projects/Python/Mock-Data-Creator/app-configs/application.properties"
         config_path = ""
         file = open(property_path, 'r')
         lines = file.readlines()
