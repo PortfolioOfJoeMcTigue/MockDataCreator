@@ -11,6 +11,10 @@ import SpecialCharOperations as specs
 class FormatService():
     
     unique_values = []
+    start_date_values = []
+    start_date_titles = []
+    end_date_values = []
+    end_date_titles = []
 
     def process_config_file_data(self, file_name):
         print("inside : process_config_file_data")
@@ -37,7 +41,11 @@ class FormatService():
             sql_anchor = self.d.retrieve_sql_anchor_from_dictionary(file_dict, record_index)
             sql_info = '{}-{}-{}'.format(sql_table, sql_action, sql_anchor)
 
-            title_list = [], value_list = [], type_list = [], format_list = [], new_value_list = []
+            title_list = [] 
+            value_list = [] 
+            type_list = [] 
+            format_list = [] 
+            new_value_list = []
                         
             for column_index in range(0, columns_per_record):
                 
