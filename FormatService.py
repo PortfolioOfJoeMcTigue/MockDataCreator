@@ -5,7 +5,7 @@ import FileWriteOperations as write
 import RandLetterOperations as letters
 import RandNumberOperations as numbers
 import RandNameOperations as names
-import SpecialCharOperations as specs 
+import SpecialCharOperations as specs
 
 
 class FormatService():
@@ -242,7 +242,7 @@ class FormatService():
                     case "RANDLET":
                         segment = self.lett.process_letter_requests(format_list[num])
                     case "RANDNAME":
-                        segment = self.name.process_name_request(format_list[num])
+                        segment = self.name.process_name_requests(format_list[num])
                     case "SPEC":
                         segment = self.spec.process_special_character_request(format_list[num])
                 result = '{}{}'.format(result, segment)
